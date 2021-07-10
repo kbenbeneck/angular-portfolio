@@ -4,7 +4,12 @@
       <mat-card-title>Hello!</mat-card-title>
       <mat-card-content>I'm Karl Benbeneck. I'm a full stack web developer.</mat-card-content>
       <mat-card-actions>
-        <button mat-raised-button color="primary">View My Work</button>
+        <button
+          (click)="scrollToAbout()"
+          mat-raised-button
+          color="primary">
+          View My Work
+        </button>
       </mat-card-actions>
     </div>
   </mat-card>
