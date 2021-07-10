@@ -1,0 +1,34 @@
+mat-card {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  text-align: center;
+  display: grid;
+}
+
+mat-card-title {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+mat-card-content {
+  font-size: 2rem;
+  line-height: 3rem;
+  padding: 2rem;
+}
+
+mat-card button {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.landing {
+  background-color: rgb(240, 240, 240);
+  padding-top: 4rem;
+  height: 100%;
+}
+
+.card {
+  justify-self: center;
+  align-self: center;
+}
