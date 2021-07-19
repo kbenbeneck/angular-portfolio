@@ -1,0 +1,33 @@
+<mat-drawer-container>
+  <mat-sidenav #drawer mode="over" role="navigation">
+    <img src="../../assets/images/logo.jpg" alt="logo">
+    <br>
+    <button mat-raised-button>About</button>
+    <br>
+    <button mat-raised-button>Skills</button>
+    <br>
+    <button mat-raised-button>Portfolio</button>
+    <br>
+    <button mat-raised-button>Blog</button>
+  </mat-sidenav>
+
+  <div class="card">
+    <mat-card>
+      <mat-card-title>
+        Hello
+      </mat-card-title>
+
+      <mat-card-content>
+        I'm Karl Benbeneck. I'm a full stack developer.
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-raised-button
+        (click)="drawer.toggle()">
+        View My Work
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+</mat-drawer-container>
